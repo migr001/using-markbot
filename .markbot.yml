@@ -1,9 +1,9 @@
 repo: "using-markbot"
-canvasCourse: "467502"
-canvasAssignment: "4256646"
+canvasCourse: "web-dev-1"
 
-naming: true
-commits: 2
+inherit:
+  - naming-restrict-live
+  - git-2
 
 html:
   - path: "index.html"
